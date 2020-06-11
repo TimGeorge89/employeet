@@ -1,0 +1,56 @@
+.modal {
+
+}
+
+.modal__background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba($color-grey-dark, 0.8);
+  z-index: 10004;
+}
+
+.modal__card-wrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10005;
+}
+
+.modal__card {
+  font-size: 2rem;
+  height: auto;
+  width: 35rem;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: white;
+  border-radius: 5px;
+
+  &-details {
+    text-align: center;
+
+    a {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  &-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      &:not(:last-child) {
+        padding-bottom: 1rem;
+      }
+    }
+  }
+}

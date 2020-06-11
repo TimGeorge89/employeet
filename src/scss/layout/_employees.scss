@@ -1,0 +1,48 @@
+.employee__box {
+  background-color: darken($color-grey-light-1, 10%);
+  height: auto;
+  margin-top: -12vh;
+}
+
+.employee__card-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10rem;
+}
+
+.employee__card {
+  font-size: 2rem;
+  width: 35rem;
+  padding: 1rem;
+  margin: 2rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 1rem 2rem rgba($color-black, .2);
+
+  &-details {
+    text-align: center;
+
+    a {
+
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+
+  &-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    text-decoration: underline;
+  }
+
+  ul {
+    list-style: none;
+
+    li {
+      &:not(:last-child) {
+        padding-bottom: 1rem;
+      }
+    }
+  }
+}
