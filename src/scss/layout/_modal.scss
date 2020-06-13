@@ -33,8 +33,13 @@
     text-align: center;
 
     a {
+      color: $color-grey-dark;
       text-decoration: underline;
       cursor: pointer;
+
+      &:not(:last-child) {
+        padding-right: 5rem;
+      }
     }
   }
 

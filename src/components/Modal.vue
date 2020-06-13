@@ -23,6 +23,7 @@
             </li>
           </ul>
           <a @click="modalClose">Exit</a>
+          <a href="https://timgeorge.dev/">Hire</a>
         </div>
       </div>
     </div>
@@ -45,8 +46,4 @@ export default {
 }
 </script>
 
-<style lang="scss">
-
-
-
-</style>
+<style lang="scss"></style>

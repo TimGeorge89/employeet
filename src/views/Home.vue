@@ -10,11 +10,11 @@
         </h1>
       </div>
 
-      <a href="#" class="btn btn--white">Find Employees</a>
+      <a href="#scroll2" class="btn btn--blue">Find Employees</a>
 
     </header>
 
-    <section class="employee__box">
+    <section id="scroll2" class="employee__box">
 
       <div class="employee__card-wrapper">
         <div v-for="employee in data" :key="employee.id" class="employee__card">
