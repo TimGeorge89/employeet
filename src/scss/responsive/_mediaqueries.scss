@@ -1,0 +1,25 @@
+@media screen and (max-width: 2560px) {
+  .employee__card-wrapper {
+    padding-top: 22rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    &__text-box {
+      transform: translate(-48%, -50%);
+    }
+  }
+
+  .heading-primary {
+    &--main {
+       font-size: 6rem;
+       letter-spacing: 2.5rem;
+    }
+
+    &--sub {
+       font-size: 1.5rem;
+       letter-spacing: 1rem;
+    }
+  }
+}
