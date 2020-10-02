@@ -2,7 +2,6 @@
   background-image: linear-gradient(to right bottom, lighten($color-primary-light, 10%), darken($color-primary-dark, 10%));
   height: 97vh;
   min-height: 60rem;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
   position: relative;
   z-index: 1;
@@ -12,6 +11,10 @@
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  @media (orientation: landscape) {
+    clip-path: polygon(0 0, 100% 0, 100% 133vh, 0 100%);
   }
 }
 
